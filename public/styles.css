@@ -1,0 +1,87 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+*::before, *::after{ box-sizing: inherit; }
+body{
+    background: #afbadf url("https://staticdelivery.nexusmods.com/mods/5113/images/headers/17_1675904695.jpg") center/cover no-repeat fixed;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header, footer{
+    color: #ffffff;
+    background: #1e293b;
+    text-align: center;
+    padding: 10px;
+}
+footer{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+#main-title{
+    text-transform: uppercase;
+    word-spacing: 10px;
+    letter-spacing: -3px;
+    margin-bottom: 0;
+    text-shadow: 2px 2px 5px #ffd700
+}
+.intro{
+    font-size: 1.5em;
+    margin-top: 0;
+    text-decoration: underline;
+}
+section > img:first-of-type {
+    display: block;
+    width: 50vw;
+    height: 50vh;
+    margin: 0 auto;
+    padding: 40px;
+}
+.container img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    float: left;
+}
+.container ul{
+    list-style-type: none;
+    clear: left;
+}
+a[target="_blank"]{
+    color: #22d3ee;
+    text-decoration: underline;
+    font-weight: 600;
+}
+a[href="/internet-page"]{
+    color: #a3e635;
+    text-decoration: none;
+    border-bottom: 2px solid currentColor;
+}
+:hover{
+    filter: brightness(1.2);
+    outline: 2px dashed currentColor;
+    outline-offset: 2px;
+}
+.container ul{
+    list-style-type: none;
+    clear: left;
+    padding: 0;
+}
+.container ul li{
+    width: 150px;
+    padding: 5px;
+    background-color: cornsilk;
+    text-align: center;
+    display: inline-block;
+    border-radius: 0px 25px;
+}
+p{
+    line-height: 1.6;
+    font-size: 1.2em;
+    text-align: center;
+    color: #d6e5c8;
+}
